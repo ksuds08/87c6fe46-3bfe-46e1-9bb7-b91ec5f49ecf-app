@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeCraft AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-eeM7RLe3Wv2HZ7Toub47POas/user-rnGwZEmjnwoUoF8lEvadvt0O/img-Pspmz7te4zJQTT7ZLpUrwIxG.png?st=2025-07-26T04%3A37%3A31Z&se=2025-07-26T06%3A37%3A31Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-25T13%3A45%3A46Z&ske=2025-07-26T13%3A45%3A46Z&sks=b&skv=2024-08-04&sig=V2H4ReI3GxbQEKSAe0%2BjVfj519t9GV6F1vZOXF3oH%2Bc%3D" alt="ResumeCraft AI Logo" class="h-12">
+            <h1 class="text-2xl font-bold">ResumeCraft AI</h1>
+        </div>
+    </header>
+    <main class="container mx-auto px-6 py-10">
+        <section class="text-center">
+            <h2 class="text-3xl font-bold mb-4">Craft Your Future with AI Precision</h2>
+            <p class="text-lg mb-8">Generate tailored, professional resume templates with the power of AI.</p>
+        </section>
+        <section class="bg-white shadow-md rounded-lg p-6">
+            <form id="resume-form" class="space-y-4">
+                <div>
+                    <label for="industry" class="block text-lg font-medium">Industry</label>
+                    <input type="text" id="industry" name="industry" class="w-full border border-gray-300 rounded p-2" placeholder="e.g., Marketing">
+                </div>
+                <div>
+                    <label for="experience" class="block text-lg font-medium">Experience Level</label>
+                    <select id="experience" name="experience" class="w-full border border-gray-300 rounded p-2">
+                        <option value="entry">Entry Level</option>
+                        <option value="mid">Mid Level</option>
+                        <option value="senior">Senior Level</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="design" class="block text-lg font-medium">Design Preference</label>
+                    <select id="design" name="design" class="w-full border border-gray-300 rounded p-2">
+                        <option value="creative">Creative</option>
+                        <option value="executive">Executive</option>
+                        <option value="minimal">Minimal</option>
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Generate Resume</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-white shadow-md mt-10">
+        <div class="container mx-auto py-4 px-6 text-center">
+            <p class="text-sm">&copy; 2023 ResumeCraft AI. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
